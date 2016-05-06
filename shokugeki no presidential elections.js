@@ -19,7 +19,7 @@ function checkWords() { //list of words in URL or title that hide page until scr
 function textReplace(text) { //function that actually replaces words. Modified from Drumpfinator
 	if (typeof text != 'undefined') {
 		        //console.log (text)
-           text = text.replace(/\bTRUMP(S|ED|ed|ING|ing)?\b/g, 'MCDONALD$1')
+           text = text.replace(/\bTRUMP(S|ED|ed|ING|ing)?\b/g, 'MCDONALD$1');
            text = text.replace(/\bTrump(s|ed|ing)?\b/g, 'Mcdonald$1');
            text = text.replace(/\bDonald(s|ed|ing)?\b/g, 'Ronald$1');
            text = text.replace(/\bDONALD(S|ed|ing)?\b/g, 'RONALD$1');
