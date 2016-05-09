@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  changes the 2016 election to a fast food war
-// @include      https://www.reddit.com/
+// @include      *
 // @author       lordkronos ft. trlkly
 // @match        http://*/*
 // @grant        none
